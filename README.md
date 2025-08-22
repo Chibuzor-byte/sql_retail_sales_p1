@@ -6,8 +6,6 @@
 **Level**: Beginner  
 **Database**: `sql_database_p1`
 
-📌 Overview
-
 This is my first ever SQL project. The main goal was to practice and reinforce the SQL syntax I learned from W3Schools.
 
 I worked with a retail sales dataset and wrote queries to explore, summarize, and analyze the data.
@@ -260,6 +258,7 @@ It helped me strengthen my understanding of fundamental SQL syntax, including:
 - Practicing real-world use cases with a sample retail sales dataset
 
 This project gave me hands-on experience with SQL and improved my confidence in writing queries for data exploration and analysis.
+
 
 
 

@@ -35,16 +35,9 @@ The dataset contains retail sales records with columns such as:
 - category  → Product category
 - quantiy → quantity
 - price_per_unit → price per unit
-- cogs
-- total_sale
+- cogs → cost of goods sold
+- total_sale → total sales 
 
-sale_id → Unique identifier for each sale
-
-category
-
-total_sale → Total sales amount per order
-
-sale_date 
 
 ```sql
 CREATE DATABASE p1_retail_db;
@@ -258,6 +251,7 @@ It helped me strengthen my understanding of fundamental SQL syntax, including:
 - Practicing real-world use cases with a sample retail sales dataset
 
 This project gave me hands-on experience with SQL and improved my confidence in writing queries for data exploration and analysis.
+
 
 
 

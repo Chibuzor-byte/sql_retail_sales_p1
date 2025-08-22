@@ -4,9 +4,13 @@
 
 **Project Title**: Retail Sales Analysis  
 **Level**: Beginner  
-**Database**: `p1_retail_db`
+**Database**: `sql_database_p1`
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+📌 Overview
+
+This is my first ever SQL project. The main goal was to practice and reinforce the SQL syntax I learned from W3Schools.
+
+I worked with a retail sales dataset and wrote queries to explore, summarize, and analyze the data.
 
 ## Objectives
 
@@ -21,6 +25,28 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 - **Database Creation**: The project starts by creating a database named `p1_retail_db`.
 - **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+- **Dataset**
+
+The dataset contains retail sales records with columns such as:
+- transactions_id → Unique identifier for each transaction
+- sale_date	→ Date of transaction
+- sale_time → Time of transaction
+- customer_id  → Unique identifier for each customer
+- gender → gender of each customer
+- age → age of each customer
+- category  → Product category
+- quantiy → quantity
+- price_per_unit → price per unit
+- cogs
+- total_sale
+
+sale_id → Unique identifier for each sale
+
+category
+
+total_sale → Total sales amount per order
+
+sale_date 
 
 ```sql
 CREATE DATABASE p1_retail_db;
@@ -200,6 +226,14 @@ GROUP BY shift
 - **Trend Analysis**: Insights into sales trends across different months and shifts.
 - **Customer Insights**: Reports on top customers and unique customer counts per category.
 
+## Tools Used
+
+PostgreSQL (for running queries)
+
+pgAdmin / psql (for managing the database)
+
+Excel (To view the csv file)
+
 ## Conclusion
 
 This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
@@ -208,7 +242,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 
 1. **Clone the Repository**: Clone this project repository from GitHub.
 2. **Set Up the Database**: Run the SQL scripts provided in the `database_setup.sql` file to create and populate the database.
-3. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
+3. **Run the Queries**: Use the SQL queries provided in the `sql_query_p2.sql` file to perform your analysis.
 4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
 
 ## Author - OsiCodes
@@ -226,6 +260,7 @@ It helped me strengthen my understanding of fundamental SQL syntax, including:
 - Practicing real-world use cases with a sample retail sales dataset
 
 This project gave me hands-on experience with SQL and improved my confidence in writing queries for data exploration and analysis.
+
 
 
 

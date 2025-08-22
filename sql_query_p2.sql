@@ -17,26 +17,7 @@ CREATE TABLE retail_sales
 
 	);
 
-\COPY retail_sales
-FROM 'C:\Users\osinachi\Desktop\Retail-Sales-Analysis-SQL-Project--P1'
-DELIMITER ','
-CSV HEADER;
-
-
-SELECT COUNT(*) FROM retail_sales
---LIMIT 10;
-
-SELECT * FROM retail_sales
-
---CHECK FOR NULL VALUES - DATA CLEANING
-SELECT * FROM retail_sales
-WHERE transactions_id IS NULL;
-
-SELECT * FROM retail_sales
-WHERE sale_date IS NULL;
-
-SELECT * FROM retail_sales
-WHERE sale_time IS NULL;
+-- CHECK FOR NULL VALUES
 
 SELECT * FROM retail_sales
 WHERE
@@ -145,7 +126,7 @@ GROUP BY 1, 2
 WHERE rank = 1
 
 
--- **Write a SQL query to find the top 5 customers based on the highest total sales **:
+-- **Write a SQL query to find the top 5 customers based on the highest total sales**:
 
 SELECT 
     customer_id,
@@ -183,5 +164,6 @@ SELECT
     COUNT(*) as total_orders    
 FROM hourly_sale
 GROUP BY shift
+
 
 -- END OF PROJECT

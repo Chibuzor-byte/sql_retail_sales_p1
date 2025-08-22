@@ -211,18 +211,21 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 3. **Run the Queries**: Use the SQL queries provided in the `analysis_queries.sql` file to perform your analysis.
 4. **Explore and Modify**: Feel free to modify the queries to explore different aspects of the dataset or answer additional business questions.
 
-## Author - Zero Analyst
+## Author - OsiCodes
 
-This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
+This is my first SQL project.
+In this project, I practiced writing queries and applying concepts I learned from W3Schools.
+It helped me strengthen my understanding of fundamental SQL syntax, including:
 
-### Stay Updated and Join the Community
+- Selecting and filtering data using SELECT, WHERE, and LIMIT
 
-For more content on SQL, data analysis, and other data-related topics, make sure to follow me on social media and join our community:
+- Aggregating data with SUM(), COUNT(), and GROUP BY
 
-- **YouTube**: [Subscribe to my channel for tutorials and insights](https://www.youtube.com/@zero_analyst)
-- **Instagram**: [Follow me for daily tips and updates](https://www.instagram.com/zero_analyst/)
-- **LinkedIn**: [Connect with me professionally](https://www.linkedin.com/in/najirr)
-- **Discord**: [Join our community to learn and grow together](https://discord.gg/36h5f2Z5PK)
+- Using aliases to make query results more readable
 
-Thank you for your support, and I look forward to connecting with you!
+- Practicing real-world use cases with a sample retail sales dataset
+
+This project gave me hands-on experience with SQL and improved my confidence in writing queries for data exploration and analysis.
+
+
 
